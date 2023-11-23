@@ -92,3 +92,6 @@ Suppression avec confirmation des Services:
 ```shell
 git clone https://github.com/Ghaziyassine/projet-jsf.git
 ```
+## Auteurs
+
+- [Ghazi yassine](https://github.com/Ghaziyassine) 
