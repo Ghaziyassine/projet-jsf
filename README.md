@@ -38,8 +38,7 @@ Ce projet vise à créer une application web de gestion des employés et des ser
 
 ## Captures d'écran
 
-### - Page d'accueil avec Horloge et Calendrier
-![Accueil](lien_vers_image_accueil)
+
 
 ### - Gestion des Employés
 
