@@ -73,7 +73,7 @@ Suppression avec confirmation des Services:
 
 ### - hearchie des chef-colaborateurs
 
-![image](https://github.com/Ghaziyassine/projet-jsf/assets/114885285/05621448-62d1-4e65-b6bd-9540faadaff9)
+![image](https://github.com/Ghaziyassine/projet-jsf/assets/114885285/fc8b7b74-19d2-4625-bab9-1d54a52d4633)
 
 ## Déploiement
 
