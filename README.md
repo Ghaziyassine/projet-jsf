@@ -37,7 +37,9 @@ Ce projet vise à créer une application web de gestion des employés et des ser
 - MySQL (Gestion de base de données)
 
 ## Captures d'écran
+### - Page d'authentification 
 
+![image](https://github.com/Ghaziyassine/projet-jsf/assets/114885285/5e4b179f-246b-4320-badf-ad87026cfc07)
 
 
 ### - Gestion des Employés
