@@ -44,7 +44,7 @@ Ce projet vise à créer une application web de gestion des employés et des ser
 
 ### - Gestion des Employés
 
-![image](https://github.com/Ghaziyassine/projet-jsf/assets/114885285/84ff0b48-53a6-4851-892e-264c8d10af36)
+![image](https://github.com/Ghaziyassine/projet-jsf/assets/114885285/9b2ac385-ea5e-4f16-8d04-28473b2be9ef)
 
 Modification des Employés:
 
