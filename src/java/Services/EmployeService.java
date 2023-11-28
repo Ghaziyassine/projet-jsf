@@ -7,6 +7,7 @@ package Services;
 
 import dao.IDao;
 import entities.Employe;
+import entities.Service;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -119,6 +120,28 @@ public List<Employe> getSubordinates(Employe chef) {
     session.getTransaction().commit();
     return subordinates;
 }
+  public List<Employe> getCollaborateurs(Service service) {
+        List<Employe> collaborateurs;
+        Session session = HibernateUtil.getSessionFactory().openSession();
+        session.beginTransaction();
+        collaborateurs = session.createQuery("SELECT e FROM Employe e JOIN e.service s WHERE s.id = :serviceId AND e.chef IS NOT NULL")
+                .setParameter("serviceId", service.getId())
+                .list();
 
+        session.getTransaction().commit();
+        return collaborateurs;
+    }
+
+    public List<Employe> getChef(Service service) {
+        List<Employe> collaborateurs;
+        Session session = HibernateUtil.getSessionFactory().openSession();
+        session.beginTransaction();
+        collaborateurs = session.createQuery("SELECT e FROM Employe e JOIN e.service s WHERE s.id = :serviceId AND e.chef IS NULL")
+                .setParameter("serviceId", service.getId())
+                .list();
+
+        session.getTransaction().commit();
+        return collaborateurs;
+    }
     
 }
